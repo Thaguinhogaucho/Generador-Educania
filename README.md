@@ -1,18 +1,20 @@
-generador-educania/
-│
-├── package.json
-"devDependencies": {
-  "@vitejs/plugin-react": "^4.1.0",
-  "vite": "^4.4.9"
+{
+  "name": "generador-educania",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "docx": "^8.0.4",
+    "file-saver": "^2.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^4.4.9"
+  }
 }
-
-├── vite.config.js
-├── README.md
-│
-├── public/
-│   └── favicon.ico
-│
-└── src/
-    ├── App.jsx
-    ├── main.jsx
-    └── index.css
